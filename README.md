@@ -19,7 +19,7 @@ Using SQL query statements, all of the PYPL data from the database was read and 
 HvPlot was then used to create a line graph showing the PYPL daily returns. 
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-10%20at%209.00.54%20AM.png)
 
-In order to find the PYPL cummulative returns, the **.cumsum()** function was first used on the daily returns column in the PYPL dataframe. HvPlot was then used again to show the cummulative returns for PYPL in a line graph. 
+In order to find the PYPL cumulative returns, the **.cumsum()** function was first used on the daily returns column in the PYPL dataframe. HvPlot was then used again to show the cumulative returns for PYPL in a line graph. 
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-10%20at%209.01.01%20AM.png)
 
 
@@ -37,15 +37,18 @@ The entire ETF portfolio was then analyzed to evaluate its performance. A SQL qu
 
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-10%20at%209.31.29%20AM.png)
 
-The **.cumsum()** function was then used on the averages dataframe to create a new dataframe that stored the cummulative return values for the entire ETF portfolio.
+The **.cumsum()** function was then used on the averages dataframe to create a new dataframe that stored the cumulative return values for the entire ETF portfolio.
 
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-10%20at%209.27.39%20AM.png)
 
-Using the above cummulative returns dataframe, a final line graph was created using hvPlot to display the cummulative return values for the entire ETF portfolio.
+Using the above cumulative returns dataframe, a final line graph was created using hvPlot to display the cumulative return values for the entire ETF portfolio.
 
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-10%20at%209.27.49%20AM.png)
 
 ## Summary
+- The lowest daily return for PYPL was in March of 2020 at -15%.
+- The highest daily return for PYPL was in May of 2020 at 14%.
+
 
 Voila was used to create a web application that displayed the above information in a user friendly way. 
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-09%20at%202.58.14%20PM.png)
