@@ -12,6 +12,7 @@ ETF (exchange-traded fund) data was pulled from a SQL database and analyzed usin
 
 ## Results
 ### Single Asset Analysis
+Using SQL query statements, all of the PYPL data from the database was read and turned into a Pandas dataframe. 
 ### Optimize Data Access
 ### ETF Portfolio Analysis
 
