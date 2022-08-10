@@ -33,5 +33,8 @@ A second query was written select the time an daily returns of the top 10 daily 
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-10%20at%209.07.01%20AM.png)
 
 ### ETF Portfolio Analysis
+The entire ETF portfolio was then analyzed to evaluate its performance. A SQL query was written that joined each tabled in the database into a single Pandas dataframe, using an inner join. Then **.mean()** function was then used to find the average daily returns for all four assets. This result was then stored into another dataframe. Using these averages, the annualized return was found by taking the mean of the averages dataframe, multipling this mean by 252, and then multiplying this number by 100. The result gave us an annualized return of **43.827272**.
+
+The **.cumsum()** function was then used on the averages dataframe to create a new dataframe that stored the cummulative return values for the entire ETF portfolio.  
 
 ## Summary
