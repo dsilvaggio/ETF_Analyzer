@@ -46,3 +46,6 @@ Using the above cummulative returns dataframe, a final line graph was created us
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-10%20at%209.27.49%20AM.png)
 
 ## Summary
+
+Voila was used to create a web application that displayed the above information in a user friendly way. 
+![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-09%20at%202.58.14%20PM.png)
