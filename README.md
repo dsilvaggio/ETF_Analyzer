@@ -11,3 +11,8 @@ ETF (exchange-traded fund) data was pulled from a SQL database and analyzed usin
 - ETF Database
 
 ## Results
+### Single Asset Analysis
+### Optimize Data Access
+### ETF Portfolio Analysis
+
+## Summary
