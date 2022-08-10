@@ -19,11 +19,15 @@ Using SQL query statements, all of the PYPL data from the database was read and 
 HvPlot was then used to create a line graph showing the PYPL daily returns. 
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-10%20at%209.00.54%20AM.png)
 
-In order to find the PYPL cummulative returns, the .cumsum() function was first used on the daily returns column in the PYPL dataframe. HvPlot was then used again to show the cummulative returns for PYPL in a line graph. 
+In order to find the PYPL cummulative returns, the **.cumsum()** function was first used on the daily returns column in the PYPL dataframe. HvPlot was then used again to show the cummulative returns for PYPL in a line graph. 
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-10%20at%209.01.01%20AM.png)
 
 
 ### Optimize Data Access
+Advanced SQL queries were written using SQLAlchemy to optimize the efficiency of accessing data from our database. First, a query was written to obtain the time and closing price for PYPL where the closing price was greater than 200.0. The **pd.read_sql()** function was then used to turn the retrieved data into a Pandas dataframe.
+
+A second query was written select the time an daily returns of the top 10 daily return values for PYPL. The **pd.read_sql()** function was used to turn the retrieved data into another Pandas dataframe. 
+
 ### ETF Portfolio Analysis
 
 ## Summary
