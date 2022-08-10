@@ -25,9 +25,11 @@ In order to find the PYPL cummulative returns, the **.cumsum()** function was fi
 
 ### Optimize Data Access
 Advanced SQL queries were written using SQLAlchemy to optimize the efficiency of accessing data from our database. First, a query was written to obtain the time and closing price for PYPL where the closing price was greater than 200.0. The **pd.read_sql()** function was then used to turn the retrieved data into a Pandas dataframe.
+
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-10%20at%209.06.53%20AM.png)
 
 A second query was written select the time an daily returns of the top 10 daily return values for PYPL. The **pd.read_sql()** function was used to turn the retrieved data into another Pandas dataframe.
+
 ![This is an image](https://github.com/dsilvaggio/ETF_Analyzer/blob/main/Resources/Screen%20Shot%202022-08-10%20at%209.07.01%20AM.png)
 
 ### ETF Portfolio Analysis
